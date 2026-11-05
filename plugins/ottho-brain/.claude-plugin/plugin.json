@@ -1,0 +1,12 @@
+{
+  "name": "ottho-brain",
+  "version": "1.0.0",
+  "description": "Déploie un second cerveau complet sur le modèle BrainOS : hub de navigation, index locaux générés, règles, Sas d'ingestion sécurisé (C0–C4), journal append-only, Git local, moteur de recherche sans dépendance, branché sur Claude Code et Codex. Installation interactive et une vingtaine de skills (ingestion, notes, rituels, méta-IA, projets).",
+  "author": {
+    "name": "Ottho Academy",
+    "url": "https://academy.ottho.co"
+  },
+  "homepage": "https://academy.ottho.co",
+  "license": "MIT",
+  "keywords": ["second-brain", "brainos", "knowledge-base", "obsidian", "codex", "claude-code", "pkm"]
+}

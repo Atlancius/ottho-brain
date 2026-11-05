@@ -1,0 +1,20 @@
+{
+  "name": "ottho-brain",
+  "interface": {
+    "displayName": "Ottho Academy"
+  },
+  "plugins": [
+    {
+      "name": "ottho-brain",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ottho-brain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

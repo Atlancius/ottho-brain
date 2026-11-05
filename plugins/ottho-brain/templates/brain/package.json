@@ -1,0 +1,19 @@
+{
+  "name": "{{slug}}",
+  "private": true,
+  "description": "Second cerveau de {{owner}} (ottho-brain). Aucune dépendance : ces scripts tournent avec npm, pnpm ou bun.",
+  "type": "module",
+  "scripts": {
+    "brain": "node scripts/brain.mjs search",
+    "brain:context": "node scripts/brain.mjs context",
+    "ia:search": "node scripts/brain.mjs ia-search",
+    "stats": "node scripts/brain.mjs stats",
+    "index": "node scripts/brain.mjs index",
+    "check": "node scripts/brain.mjs check",
+    "build": "node scripts/brain.mjs build",
+    "doctor": "node scripts/brain.mjs doctor",
+    "scan": "node scripts/brain.mjs scan",
+    "sync": "node scripts/brain.mjs sync",
+    "verify": "node scripts/brain.mjs verify"
+  }
+}

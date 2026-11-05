@@ -1,0 +1,19 @@
+{
+  "name": "ottho-brain",
+  "owner": {
+    "name": "Ottho Academy",
+    "url": "https://academy.ottho.co"
+  },
+  "metadata": {
+    "description": "Marketplace du plugin Ottho Brain : un second cerveau sur le modèle BrainOS pour Claude Code et Codex.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ottho-brain",
+      "source": "./plugins/ottho-brain",
+      "description": "Installe un second cerveau complet (hub, index, règles, Sas d'ingestion, journal, Git, moteur de recherche) branché sur Claude Code et Codex, par un questionnaire interactif.",
+      "version": "1.0.0"
+    }
+  ]
+}

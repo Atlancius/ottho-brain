@@ -1,0 +1,23 @@
+{
+  "name": "ottho-brain",
+  "version": "1.0.0",
+  "description": "Déploie un second cerveau complet sur le modèle BrainOS : hub de navigation, index générés, règles, Sas d'ingestion sécurisé, journal append-only, Git local, moteur sans dépendance, branché sur Codex et Claude Code. Installation interactive avec $installer-cerveau.",
+  "author": {
+    "name": "Ottho Academy",
+    "url": "https://academy.ottho.co"
+  },
+  "homepage": "https://academy.ottho.co",
+  "license": "MIT",
+  "keywords": ["second-brain", "brainos", "knowledge-base", "obsidian", "codex", "claude-code"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ottho Brain",
+    "shortDescription": "Ton second cerveau, comme BrainOS",
+    "longDescription": "Installe et entretient un second cerveau Markdown versionné : routes perso, pro et savoir, plan de contrôle IA, Sas d'ingestion sécurisé, recherche bornée, rituels et documentation de projets. Le cerveau devient la source de vérité de Codex et de Claude Code.",
+    "developerName": "Ottho Academy",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://academy.ottho.co",
+    "defaultPrompt": ["Installe mon second cerveau", "Répare mon cerveau"]
+  }
+}

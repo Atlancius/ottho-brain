@@ -1,0 +1,31 @@
+# Boîte de dépôt : toujours hors Git (C0).
+/{{drop.dir}}/
+
+# Le Sas : seuls ses index, instructions et .gitkeep sont versionnés.
+/{{sas.dir}}/**
+!/{{sas.dir}}/**/
+!/{{sas.dir}}/**/--index-*.md
+!/{{sas.dir}}/**/--instructions.md
+!/{{sas.dir}}/**/.gitkeep
+!/{{sas.dir}}/--index-*.md
+!/{{sas.dir}}/--instructions.md
+
+# Données locales privées, sauvegardes et corbeille.
+/.local/
+/.trash/
+
+# Obsidian : réglages de l'espace de travail propres à la machine.
+/.obsidian/workspace*.json
+/.obsidian/cache
+
+# Systèmes et éditeurs.
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
+*.tmp
+.env
+.env.*
+*.pem
+*.key
+*.p12

@@ -1,0 +1,13 @@
+#!/bin/sh
+# Hook installé par ottho-brain : bloque un commit qui casse la navigation,
+# suit un dépôt du Sas, réécrit le journal ou contient un secret.
+# Ne jamais le contourner avec --no-verify : corriger la cause.
+if command -v node >/dev/null 2>&1; then
+  RUN="node"
+elif command -v bun >/dev/null 2>&1; then
+  RUN="bun"
+else
+  echo "ottho-brain : ni node ni bun trouvé, contrôles impossibles. Installer Node.js." >&2
+  exit 1
+fi
+exec "$RUN" scripts/brain.mjs check --staged
