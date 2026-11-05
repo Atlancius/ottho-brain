@@ -62,7 +62,7 @@ locale avec racinisation légère au lieu du moteur de Jeff.
 
 ## Reste à faire
 
-- Publier le dépôt sur GitHub et l'ajouter à la marketplace Ottho Academy
+- Ajouter le plugin à la marketplace Ottho Academy
   (décision de Jeff).
 - Tester une session réelle de bout en bout (questionnaire piloté par un
   humain) dans Claude Code et dans Codex : le chargement du plugin et

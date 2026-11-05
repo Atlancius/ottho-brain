@@ -31,7 +31,7 @@ devient la source de vérité de tes agents.
 ### Claude Code
 
 ```bash
-claude plugin marketplace add <owner>/ottho-brain
+claude plugin marketplace add Atlancius/ottho-brain
 ```
 
 ```bash
@@ -44,7 +44,7 @@ Puis, dans Claude Code : « installe mon second cerveau » (ou
 ### Codex
 
 ```bash
-codex plugin marketplace add <owner>/ottho-brain
+codex plugin marketplace add Atlancius/ottho-brain
 ```
 
 ```bash
@@ -53,7 +53,7 @@ codex plugin add ottho-brain@ottho-brain
 
 Puis, dans Codex : « installe mon second cerveau » (ou `$installer-cerveau`).
 
-`<owner>/ottho-brain` est le dépôt GitHub du plugin ; un chemin local marche
+`Atlancius/ottho-brain` est le dépôt GitHub du plugin ; un chemin local marche
 aussi (`codex plugin marketplace add ./ottho-brain`).
 
 ## Ce que fait l'installation
