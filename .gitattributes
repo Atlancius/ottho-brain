@@ -1,0 +1,5 @@
+# Fins de ligne LF partout : le hook pre-commit et les scripts doivent rester exécutables
+# sous Windows même avec core.autocrlf=true.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
