@@ -60,10 +60,14 @@ locale avec racinisation légère au lieu du moteur de Jeff.
 - [Registre des essais](essais/REGISTRE-ESSAIS.md), [recettes](essais/RECETTES.md), [anti-recettes](essais/ANTI-RECETTES.md)
 - [Journal](JOURNAL.md)
 
+## Publication
+
+- Dépôt public : https://github.com/Atlancius/ottho-brain
+- Marketplace Ottho Academy : fiche `plugin-ottho-brain`, étagère Agents, publiée le 2026-11-05.
+- Couverture : `assets/ottho-brain-cover.png` (source et prompt : `D:MarketingProjetsOttho-Brain-Plugin-2026-11-05`).
+
 ## Reste à faire
 
-- Ajouter le plugin à la marketplace Ottho Academy
-  (décision de Jeff).
 - Tester une session réelle de bout en bout (questionnaire piloté par un
   humain) dans Claude Code et dans Codex : le chargement du plugin et
   l'installation sont prouvés, pas le dialogue lui-même.

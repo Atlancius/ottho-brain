@@ -23,3 +23,11 @@ Append-only.
   installation Codex prouvée dans un `CODEX_HOME` temporaire.
 - Non fait : publication GitHub et marketplace Ottho (attend Jeff), session
   réelle du questionnaire avec un humain.
+
+## 2026-11-05 — Publication
+
+- Dépôt GitHub `Atlancius/ottho-brain` créé en privé, historique réécrit avec l'adresse noreply (accord de Jeff, E007), puis rendu public sur sa demande.
+- Installation prouvée depuis GitHub sur Claude Code et Codex dans des configurations temporaires.
+- Couverture générée avec Codex `image_gen`, rangée dans `D:MarketingProjetsOttho-Brain-Plugin-2026-11-05`, ajoutée au README.
+- Fiche `plugin-ottho-brain` créée en brouillon puis publiée sur la marketplace Ottho Academy, étagère Agents (choix de Jeff).
+- Reste : faire jouer le questionnaire par un élève réel et recueillir son retour.

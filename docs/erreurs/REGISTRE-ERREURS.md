@@ -58,3 +58,17 @@ comment bien faire du premier coup.
 - **Correctif** : un skill indexé par son seul `SKILL.md`, racinisation légère,
   préfixe réciproque, instructions exclues de `search`.
 - **Preuve** : `tests/smoke.mjs` section 5.
+
+## E007 — E-mail personnel dans l'historique avant publication (2026-11-05)
+
+- **Symptôme** : les trois premiers commits portaient l'adresse Gmail personnelle comme auteur, juste avant de rendre le dépôt public.
+- **Cause** : identité Git globale personnelle, dépôt créé sans identité locale.
+- **Correctif** : accord de Jeff, réécriture des trois commits avec l'adresse noreply GitHub, push forcé sur le dépôt encore privé, puis `user.email` noreply en config locale du dépôt.
+- **Preuve** : `git log origin/main --format=%ae` ne renvoie que l'adresse noreply.
+- **Du premier coup** : avant tout premier commit d'un dépôt destiné au public, poser `git config user.email <id>+<login>@users.noreply.github.com` dans le dépôt.
+
+## E008 — Adresse d'envoi d'image inutilisable (2026-11-05)
+
+- **Symptôme** : l'adresse signée renvoyée par `get_marketplace_image_upload_url` arrive caviardée dans le contexte de l'agent (jeton masqué).
+- **Correctif** : couverture versionnée dans le dépôt public (`assets/`), passée en `image_url` (raw.githubusercontent.com).
+- **Du premier coup** : pour un plugin public, héberger l'image dans son dépôt et utiliser `image_url`.
