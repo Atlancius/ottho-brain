@@ -64,7 +64,7 @@ locale avec racinisation légère au lieu du moteur de Jeff.
 
 - Dépôt public : https://github.com/Atlancius/ottho-brain
 - Marketplace Ottho Academy : fiche `plugin-ottho-brain`, étagère Agents, publiée le 2026-11-05.
-- Couverture : `assets/ottho-brain-cover.png` (source et prompt : `D:MarketingProjetsOttho-Brain-Plugin-2026-11-05`).
+- Couverture : `assets/ottho-brain-cover.png` (source et prompt : `D:/Marketing/Projets/Ottho-Brain-Plugin-2026-11-05`).
 
 ## Reste à faire
 
