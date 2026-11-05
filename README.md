@@ -1,5 +1,7 @@
 # Ottho Brain
 
+![Ottho Brain](assets/ottho-brain-cover.png)
+
 Plugin **Claude Code** et **Codex** de l'Ottho Academy qui installe un second
 cerveau complet sur le modèle de BrainOS : un dossier Markdown versionné qui
 devient la source de vérité de tes agents.
